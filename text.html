@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech</title>
+    <link rel="stylesheet"  href="text.css">
+</head>
+
+<body> 
+    <div class="container">
+        <p class="heading">Text to Speech</p>
+        <div class="options">
+            <div class="language">
+                <p>Language</p>
+                <select name="output-language" id="language"></select>
+            </div>
+        </div>
+        <div class="line"></div>
+        <textarea class="input-text" placeholder="Enter text to convert to speech..."></textarea>
+        <button class="btn speak">
+
+            <p>Convert to Speech</p>
+        </button>
+        <div class="buttons">
+            <button class="btn clear">
+
+                <p>Clear</p>
+            </button>
+        </div>
+
+        <button class="btn download" disabled>
+            <ion-icon name="cloud-download-outline"></ion-icon>
+            <p>Download Speech</p>
+        </button>
+    </div>
+<script src="text.js"></script>
+</body>
+
+</html>
